@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D77FB6632A1B9C85000217B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D77FB6622A1B9C85000217B5 /* GoogleService-Info.plist */; };
+		D77FB6742A1BAE7A000217B5 /* CraeteAccauntViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77FB6732A1BAE7A000217B5 /* CraeteAccauntViewController.swift */; };
+		D77FB6762A1BB1FF000217B5 /* AllJokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77FB6752A1BB1FE000217B5 /* AllJokesViewController.swift */; };
+		D77FB6782A1BB2F8000217B5 /* MyJokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77FB6772A1BB2F8000217B5 /* MyJokesViewController.swift */; };
+		D78FFBDD2A1C21B800A69C0D /* TableViewCellForMyJokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78FFBDC2A1C21B800A69C0D /* TableViewCellForMyJokes.swift */; };
+		D7A08E5F2A1CE63800E5CC05 /* TableViewCellForAllJokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E5E2A1CE63800E5CC05 /* TableViewCellForAllJokes.swift */; };
+		D7A08E692A1CF34600E5CC05 /* LoginInPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E682A1CF34600E5CC05 /* LoginInPresentor.swift */; };
+		D7A08E6B2A1CF37200E5CC05 /* LoginInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E6A2A1CF37200E5CC05 /* LoginInInteractor.swift */; };
+		D7A08E6D2A1CF38E00E5CC05 /* LoginInConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E6C2A1CF38E00E5CC05 /* LoginInConfigurator.swift */; };
+		D7A08E6F2A1D3F4800E5CC05 /* AllJokesPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E6E2A1D3F4800E5CC05 /* AllJokesPresentor.swift */; };
+		D7A08E722A1D3F6300E5CC05 /* AllJokesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E712A1D3F6300E5CC05 /* AllJokesInteractor.swift */; };
+		D7A08E742A1D3F8000E5CC05 /* AllJokesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E732A1D3F8000E5CC05 /* AllJokesConfigurator.swift */; };
+		D7A08E762A1D5A1A00E5CC05 /* MyJokesPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E752A1D5A1A00E5CC05 /* MyJokesPresentor.swift */; };
+		D7A08E782A1D5A3100E5CC05 /* MyJokesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E772A1D5A3100E5CC05 /* MyJokesInteractor.swift */; };
+		D7A08E7A2A1D5A4B00E5CC05 /* MyJokesConfiguragor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E792A1D5A4B00E5CC05 /* MyJokesConfiguragor.swift */; };
+		D7A08E7C2A1D67BD00E5CC05 /* CreateNewJokePresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E7B2A1D67BD00E5CC05 /* CreateNewJokePresentor.swift */; };
+		D7A08E7E2A1D67DC00E5CC05 /* CreateNewJokeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E7D2A1D67DC00E5CC05 /* CreateNewJokeInteractor.swift */; };
+		D7A08E802A1D67EF00E5CC05 /* CreateNewJokeConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E7F2A1D67EF00E5CC05 /* CreateNewJokeConfigurator.swift */; };
+		D7A08E822A1D682000E5CC05 /* CraeteAccauntPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E812A1D682000E5CC05 /* CraeteAccauntPresenter.swift */; };
+		D7A08E842A1D683200E5CC05 /* CraeteAccauntConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E832A1D683200E5CC05 /* CraeteAccauntConfigurator.swift */; };
+		D7A08E862A1D685000E5CC05 /* CraeteAccauntInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E852A1D685000E5CC05 /* CraeteAccauntInteractor.swift */; };
+		D7A08E882A1E2BA300E5CC05 /* LoginInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E872A1E2BA300E5CC05 /* LoginInRouter.swift */; };
+		D7A08E8A2A1E33CC00E5CC05 /* CraeteAccauntRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E892A1E33CC00E5CC05 /* CraeteAccauntRouter.swift */; };
+		D7A08E8C2A1E382200E5CC05 /* AllJokesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E8B2A1E382200E5CC05 /* AllJokesRouter.swift */; };
+		D7A08E8E2A1E383500E5CC05 /* MyJokesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E8D2A1E383500E5CC05 /* MyJokesRouter.swift */; };
+		D7A08E902A1E385500E5CC05 /* CreateNewJokeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A08E8F2A1E385500E5CC05 /* CreateNewJokeRouter.swift */; };
+		D7A0AC242A1B997E00B81608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A0AC232A1B997E00B81608 /* AppDelegate.swift */; };
+		D7A0AC262A1B997E00B81608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A0AC252A1B997E00B81608 /* SceneDelegate.swift */; };
+		D7A0AC282A1B997E00B81608 /* LoginInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A0AC272A1B997E00B81608 /* LoginInViewController.swift */; };
+		D7A0AC2B2A1B997E00B81608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A0AC292A1B997E00B81608 /* Main.storyboard */; };
+		D7A0AC2D2A1B998100B81608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A0AC2C2A1B998100B81608 /* Assets.xcassets */; };
+		D7A0AC302A1B998100B81608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A0AC2E2A1B998100B81608 /* LaunchScreen.storyboard */; };
+		D7A7C87D2A1BBF09005A590C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D7A7C87C2A1BBF09005A590C /* FirebaseAnalytics */; };
+		D7A7C87F2A1BBF09005A590C /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D7A7C87E2A1BBF09005A590C /* FirebaseAnalyticsSwift */; };
+		D7A7C8812A1BBF09005A590C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D7A7C8802A1BBF09005A590C /* FirebaseAuth */; };
+		D7A7C8832A1BBF09005A590C /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D7A7C8822A1BBF09005A590C /* FirebaseAuthCombine-Community */; };
+		D7A7C8852A1BBF09005A590C /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = D7A7C8842A1BBF09005A590C /* FirebaseDatabase */; };
+		D7A7C8872A1BBF09005A590C /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D7A7C8862A1BBF09005A590C /* FirebaseDatabaseSwift */; };
+		D7A7C8892A1BBF09005A590C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D7A7C8882A1BBF09005A590C /* FirebaseFirestore */; };
+		D7A7C88B2A1BBF09005A590C /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D7A7C88A2A1BBF09005A590C /* FirebaseFirestoreSwift */; };
+		D7A7C88D2A1BBF09005A590C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D7A7C88C2A1BBF09005A590C /* FirebaseStorage */; };
+		D7A7C88F2A1BE16B005A590C /* CreateNewJokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A7C88E2A1BE16B005A590C /* CreateNewJokeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D77FB6622A1B9C85000217B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D77FB6732A1BAE7A000217B5 /* CraeteAccauntViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraeteAccauntViewController.swift; sourceTree = "<group>"; };
+		D77FB6752A1BB1FE000217B5 /* AllJokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllJokesViewController.swift; sourceTree = "<group>"; };
+		D77FB6772A1BB2F8000217B5 /* MyJokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJokesViewController.swift; sourceTree = "<group>"; };
+		D78FFBDC2A1C21B800A69C0D /* TableViewCellForMyJokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellForMyJokes.swift; sourceTree = "<group>"; };
+		D7A08E5E2A1CE63800E5CC05 /* TableViewCellForAllJokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellForAllJokes.swift; sourceTree = "<group>"; };
+		D7A08E682A1CF34600E5CC05 /* LoginInPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInPresentor.swift; sourceTree = "<group>"; };
+		D7A08E6A2A1CF37200E5CC05 /* LoginInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInInteractor.swift; sourceTree = "<group>"; };
+		D7A08E6C2A1CF38E00E5CC05 /* LoginInConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInConfigurator.swift; sourceTree = "<group>"; };
+		D7A08E6E2A1D3F4800E5CC05 /* AllJokesPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllJokesPresentor.swift; sourceTree = "<group>"; };
+		D7A08E712A1D3F6300E5CC05 /* AllJokesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllJokesInteractor.swift; sourceTree = "<group>"; };
+		D7A08E732A1D3F8000E5CC05 /* AllJokesConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllJokesConfigurator.swift; sourceTree = "<group>"; };
+		D7A08E752A1D5A1A00E5CC05 /* MyJokesPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJokesPresentor.swift; sourceTree = "<group>"; };
+		D7A08E772A1D5A3100E5CC05 /* MyJokesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJokesInteractor.swift; sourceTree = "<group>"; };
+		D7A08E792A1D5A4B00E5CC05 /* MyJokesConfiguragor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJokesConfiguragor.swift; sourceTree = "<group>"; };
+		D7A08E7B2A1D67BD00E5CC05 /* CreateNewJokePresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewJokePresentor.swift; sourceTree = "<group>"; };
+		D7A08E7D2A1D67DC00E5CC05 /* CreateNewJokeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewJokeInteractor.swift; sourceTree = "<group>"; };
+		D7A08E7F2A1D67EF00E5CC05 /* CreateNewJokeConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewJokeConfigurator.swift; sourceTree = "<group>"; };
+		D7A08E812A1D682000E5CC05 /* CraeteAccauntPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraeteAccauntPresenter.swift; sourceTree = "<group>"; };
+		D7A08E832A1D683200E5CC05 /* CraeteAccauntConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraeteAccauntConfigurator.swift; sourceTree = "<group>"; };
+		D7A08E852A1D685000E5CC05 /* CraeteAccauntInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraeteAccauntInteractor.swift; sourceTree = "<group>"; };
+		D7A08E872A1E2BA300E5CC05 /* LoginInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInRouter.swift; sourceTree = "<group>"; };
+		D7A08E892A1E33CC00E5CC05 /* CraeteAccauntRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraeteAccauntRouter.swift; sourceTree = "<group>"; };
+		D7A08E8B2A1E382200E5CC05 /* AllJokesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllJokesRouter.swift; sourceTree = "<group>"; };
+		D7A08E8D2A1E383500E5CC05 /* MyJokesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJokesRouter.swift; sourceTree = "<group>"; };
+		D7A08E8F2A1E385500E5CC05 /* CreateNewJokeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewJokeRouter.swift; sourceTree = "<group>"; };
+		D7A0AC202A1B997E00B81608 /* social app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "social app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A0AC232A1B997E00B81608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7A0AC252A1B997E00B81608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D7A0AC272A1B997E00B81608 /* LoginInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInViewController.swift; sourceTree = "<group>"; };
+		D7A0AC2A2A1B997E00B81608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7A0AC2C2A1B998100B81608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7A0AC2F2A1B998100B81608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7A0AC312A1B998100B81608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A7C88E2A1BE16B005A590C /* CreateNewJokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewJokeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7A0AC1D2A1B997E00B81608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A7C8872A1BBF09005A590C /* FirebaseDatabaseSwift in Frameworks */,
+				D7A7C8852A1BBF09005A590C /* FirebaseDatabase in Frameworks */,
+				D7A7C88D2A1BBF09005A590C /* FirebaseStorage in Frameworks */,
+				D7A7C87F2A1BBF09005A590C /* FirebaseAnalyticsSwift in Frameworks */,
+				D7A7C8812A1BBF09005A590C /* FirebaseAuth in Frameworks */,
+				D7A7C87D2A1BBF09005A590C /* FirebaseAnalytics in Frameworks */,
+				D7A7C8832A1BBF09005A590C /* FirebaseAuthCombine-Community in Frameworks */,
+				D7A7C8892A1BBF09005A590C /* FirebaseFirestore in Frameworks */,
+				D7A7C88B2A1BBF09005A590C /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7A08E602A1CEDCF00E5CC05 /* LoginIn */ = {
+			isa = PBXGroup;
+			children = (
+				D7A0AC272A1B997E00B81608 /* LoginInViewController.swift */,
+				D7A08E682A1CF34600E5CC05 /* LoginInPresentor.swift */,
+				D7A08E6A2A1CF37200E5CC05 /* LoginInInteractor.swift */,
+				D7A08E872A1E2BA300E5CC05 /* LoginInRouter.swift */,
+				D7A08E6C2A1CF38E00E5CC05 /* LoginInConfigurator.swift */,
+			);
+			path = LoginIn;
+			sourceTree = "<group>";
+		};
+		D7A08E612A1CEDD800E5CC05 /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				D77FB6732A1BAE7A000217B5 /* CraeteAccauntViewController.swift */,
+				D7A08E812A1D682000E5CC05 /* CraeteAccauntPresenter.swift */,
+				D7A08E852A1D685000E5CC05 /* CraeteAccauntInteractor.swift */,
+				D7A08E892A1E33CC00E5CC05 /* CraeteAccauntRouter.swift */,
+				D7A08E832A1D683200E5CC05 /* CraeteAccauntConfigurator.swift */,
+			);
+			path = CreateAccount;
+			sourceTree = "<group>";
+		};
+		D7A08E622A1CEE0300E5CC05 /* AllJokes */ = {
+			isa = PBXGroup;
+			children = (
+				D77FB6752A1BB1FE000217B5 /* AllJokesViewController.swift */,
+				D7A08E6E2A1D3F4800E5CC05 /* AllJokesPresentor.swift */,
+				D7A08E712A1D3F6300E5CC05 /* AllJokesInteractor.swift */,
+				D7A08E8B2A1E382200E5CC05 /* AllJokesRouter.swift */,
+				D7A08E732A1D3F8000E5CC05 /* AllJokesConfigurator.swift */,
+				D7A08E5E2A1CE63800E5CC05 /* TableViewCellForAllJokes.swift */,
+			);
+			path = AllJokes;
+			sourceTree = "<group>";
+		};
+		D7A08E632A1CEE0D00E5CC05 /* MyJokes */ = {
+			isa = PBXGroup;
+			children = (
+				D77FB6772A1BB2F8000217B5 /* MyJokesViewController.swift */,
+				D7A08E752A1D5A1A00E5CC05 /* MyJokesPresentor.swift */,
+				D7A08E772A1D5A3100E5CC05 /* MyJokesInteractor.swift */,
+				D7A08E8D2A1E383500E5CC05 /* MyJokesRouter.swift */,
+				D7A08E792A1D5A4B00E5CC05 /* MyJokesConfiguragor.swift */,
+				D78FFBDC2A1C21B800A69C0D /* TableViewCellForMyJokes.swift */,
+			);
+			path = MyJokes;
+			sourceTree = "<group>";
+		};
+		D7A08E642A1CEE1800E5CC05 /* CreateNewJokes */ = {
+			isa = PBXGroup;
+			children = (
+				D7A7C88E2A1BE16B005A590C /* CreateNewJokeViewController.swift */,
+				D7A08E7B2A1D67BD00E5CC05 /* CreateNewJokePresentor.swift */,
+				D7A08E7D2A1D67DC00E5CC05 /* CreateNewJokeInteractor.swift */,
+				D7A08E8F2A1E385500E5CC05 /* CreateNewJokeRouter.swift */,
+				D7A08E7F2A1D67EF00E5CC05 /* CreateNewJokeConfigurator.swift */,
+			);
+			path = CreateNewJokes;
+			sourceTree = "<group>";
+		};
+		D7A08E652A1CEE6D00E5CC05 /* Stiryboards */ = {
+			isa = PBXGroup;
+			children = (
+				D7A0AC2E2A1B998100B81608 /* LaunchScreen.storyboard */,
+				D7A0AC292A1B997E00B81608 /* Main.storyboard */,
+			);
+			path = Stiryboards;
+			sourceTree = "<group>";
+		};
+		D7A08E662A1CEE9700E5CC05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7A0AC252A1B997E00B81608 /* SceneDelegate.swift */,
+				D7A0AC232A1B997E00B81608 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7A08E672A1CEEAA00E5CC05 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7A0AC2C2A1B998100B81608 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D7A0AC172A1B997E00B81608 = {
+			isa = PBXGroup;
+			children = (
+				D7A0AC222A1B997E00B81608 /* social app */,
+				D7A0AC212A1B997E00B81608 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7A0AC212A1B997E00B81608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7A0AC202A1B997E00B81608 /* social app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7A0AC222A1B997E00B81608 /* social app */ = {
+			isa = PBXGroup;
+			children = (
+				D7A08E602A1CEDCF00E5CC05 /* LoginIn */,
+				D7A08E612A1CEDD800E5CC05 /* CreateAccount */,
+				D7A08E622A1CEE0300E5CC05 /* AllJokes */,
+				D7A08E632A1CEE0D00E5CC05 /* MyJokes */,
+				D7A08E642A1CEE1800E5CC05 /* CreateNewJokes */,
+				D7A08E652A1CEE6D00E5CC05 /* Stiryboards */,
+				D7A08E662A1CEE9700E5CC05 /* Supporting Files */,
+				D7A08E672A1CEEAA00E5CC05 /* Resources */,
+				D7A0AC312A1B998100B81608 /* Info.plist */,
+				D77FB6622A1B9C85000217B5 /* GoogleService-Info.plist */,
+			);
+			path = "social app";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7A0AC1F2A1B997E00B81608 /* social app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A0AC342A1B998100B81608 /* Build configuration list for PBXNativeTarget "social app" */;
+			buildPhases = (
+				D7A0AC1C2A1B997E00B81608 /* Sources */,
+				D7A0AC1D2A1B997E00B81608 /* Frameworks */,
+				D7A0AC1E2A1B997E00B81608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "social app";
+			packageProductDependencies = (
+				D7A7C87C2A1BBF09005A590C /* FirebaseAnalytics */,
+				D7A7C87E2A1BBF09005A590C /* FirebaseAnalyticsSwift */,
+				D7A7C8802A1BBF09005A590C /* FirebaseAuth */,
+				D7A7C8822A1BBF09005A590C /* FirebaseAuthCombine-Community */,
+				D7A7C8842A1BBF09005A590C /* FirebaseDatabase */,
+				D7A7C8862A1BBF09005A590C /* FirebaseDatabaseSwift */,
+				D7A7C8882A1BBF09005A590C /* FirebaseFirestore */,
+				D7A7C88A2A1BBF09005A590C /* FirebaseFirestoreSwift */,
+				D7A7C88C2A1BBF09005A590C /* FirebaseStorage */,
+			);
+			productName = "social app";
+			productReference = D7A0AC202A1B997E00B81608 /* social app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7A0AC182A1B997E00B81608 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D7A0AC1F2A1B997E00B81608 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = D7A0AC1B2A1B997E00B81608 /* Build configuration list for PBXProject "social app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7A0AC172A1B997E00B81608;
+			packageReferences = (
+				D7A7C87B2A1BBF09005A590C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = D7A0AC212A1B997E00B81608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7A0AC1F2A1B997E00B81608 /* social app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7A0AC1E2A1B997E00B81608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A0AC302A1B998100B81608 /* LaunchScreen.storyboard in Resources */,
+				D77FB6632A1B9C85000217B5 /* GoogleService-Info.plist in Resources */,
+				D7A0AC2D2A1B998100B81608 /* Assets.xcassets in Resources */,
+				D7A0AC2B2A1B997E00B81608 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7A0AC1C2A1B997E00B81608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77FB6762A1BB1FF000217B5 /* AllJokesViewController.swift in Sources */,
+				D7A08E5F2A1CE63800E5CC05 /* TableViewCellForAllJokes.swift in Sources */,
+				D7A08E822A1D682000E5CC05 /* CraeteAccauntPresenter.swift in Sources */,
+				D7A08E762A1D5A1A00E5CC05 /* MyJokesPresentor.swift in Sources */,
+				D7A08E7A2A1D5A4B00E5CC05 /* MyJokesConfiguragor.swift in Sources */,
+				D7A0AC282A1B997E00B81608 /* LoginInViewController.swift in Sources */,
+				D7A08E742A1D3F8000E5CC05 /* AllJokesConfigurator.swift in Sources */,
+				D7A08E782A1D5A3100E5CC05 /* MyJokesInteractor.swift in Sources */,
+				D7A08E8A2A1E33CC00E5CC05 /* CraeteAccauntRouter.swift in Sources */,
+				D7A08E6D2A1CF38E00E5CC05 /* LoginInConfigurator.swift in Sources */,
+				D7A7C88F2A1BE16B005A590C /* CreateNewJokeViewController.swift in Sources */,
+				D78FFBDD2A1C21B800A69C0D /* TableViewCellForMyJokes.swift in Sources */,
+				D7A08E7C2A1D67BD00E5CC05 /* CreateNewJokePresentor.swift in Sources */,
+				D7A08E6B2A1CF37200E5CC05 /* LoginInInteractor.swift in Sources */,
+				D7A0AC242A1B997E00B81608 /* AppDelegate.swift in Sources */,
+				D7A08E862A1D685000E5CC05 /* CraeteAccauntInteractor.swift in Sources */,
+				D7A08E882A1E2BA300E5CC05 /* LoginInRouter.swift in Sources */,
+				D7A08E8C2A1E382200E5CC05 /* AllJokesRouter.swift in Sources */,
+				D7A08E902A1E385500E5CC05 /* CreateNewJokeRouter.swift in Sources */,
+				D7A08E8E2A1E383500E5CC05 /* MyJokesRouter.swift in Sources */,
+				D7A08E6F2A1D3F4800E5CC05 /* AllJokesPresentor.swift in Sources */,
+				D77FB6742A1BAE7A000217B5 /* CraeteAccauntViewController.swift in Sources */,
+				D7A08E802A1D67EF00E5CC05 /* CreateNewJokeConfigurator.swift in Sources */,
+				D7A08E722A1D3F6300E5CC05 /* AllJokesInteractor.swift in Sources */,
+				D7A08E842A1D683200E5CC05 /* CraeteAccauntConfigurator.swift in Sources */,
+				D77FB6782A1BB2F8000217B5 /* MyJokesViewController.swift in Sources */,
+				D7A0AC262A1B997E00B81608 /* SceneDelegate.swift in Sources */,
+				D7A08E692A1CF34600E5CC05 /* LoginInPresentor.swift in Sources */,
+				D7A08E7E2A1D67DC00E5CC05 /* CreateNewJokeInteractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7A0AC292A1B997E00B81608 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A0AC2A2A1B997E00B81608 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7A0AC2E2A1B998100B81608 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A0AC2F2A1B998100B81608 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7A0AC322A1B998100B81608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7A0AC332A1B998100B81608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7A0AC352A1B998100B81608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CPAN57W2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "social app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.social-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7A0AC362A1B998100B81608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CPAN57W2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "social app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.social-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7A0AC1B2A1B997E00B81608 /* Build configuration list for PBXProject "social app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A0AC322A1B998100B81608 /* Debug */,
+				D7A0AC332A1B998100B81608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A0AC342A1B998100B81608 /* Build configuration list for PBXNativeTarget "social app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A0AC352A1B998100B81608 /* Debug */,
+				D7A0AC362A1B998100B81608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D7A7C87B2A1BBF09005A590C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D7A7C87C2A1BBF09005A590C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7A7C87B2A1BBF09005A590C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D7A7C87E2A1BBF09005A590C /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7A7C87B2A1BBF09005A590C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		D7A7C8802A1BBF09005A590C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7A7C87B2A1BBF09005A590C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D7A7C8822A1BBF09005A590C /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7A7C87B2A1BBF09005A590C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		D7A7C8842A1BBF09005A590C /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7A7C87B2A1BBF09005A590C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		D7A7C8862A1BBF09005A590C /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7A7C87B2A1BBF09005A590C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		D7A7C8882A1BBF09005A590C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7A7C87B2A1BBF09005A590C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		D7A7C88A2A1BBF09005A590C /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7A7C87B2A1BBF09005A590C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		D7A7C88C2A1BBF09005A590C /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7A7C87B2A1BBF09005A590C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D7A0AC182A1B997E00B81608 /* Project object */;
+}
